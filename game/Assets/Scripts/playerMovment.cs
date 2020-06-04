@@ -37,4 +37,21 @@ public class playerMovment : MonoBehaviour
         controller.Move(move * speed * Time.deltaTime );
 
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+
+        Debug.Log("collied with food");
+
+       // if (collision.gameObject.name == "food")
+      //  {
+      //      Debug.Log("collied with food");
+       //     Destroy(collision.gameObject);
+      //  }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("trigger with food");
+    }
 }
