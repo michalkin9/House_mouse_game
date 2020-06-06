@@ -9,11 +9,13 @@ public class playerMovment : MonoBehaviour
     public float jumpHeight = 3f;
     float gravity = -9.81f;
     Vector3 velocity;
+    bool isGrounded = true; 
+
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-    bool isGrounded;
+    
     
 
 
@@ -21,7 +23,7 @@ public class playerMovment : MonoBehaviour
     void Update()
     {
 
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        //isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask); - מחזיר false לבדוק מה הלוז
 
         if(isGrounded && velocity.y < 0)
         {
@@ -33,16 +35,16 @@ public class playerMovment : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
-
-       
-
         Vector3 move = transform.right * x + transform.forward * z;
 
         controller.Move(move * speed * Time.deltaTime);
 
-        if(Input.GetKeyDown(KeyCode.Space) ) // לא עובד עם && isGrounded לבדוק למה
+        if(Input.GetKeyDown(KeyCode.Space) && isGrounded ) // לא עובד עם && isGrounded לבדוק למה
+            //להחליט אם עדיף ככה או שהקפיצות יהיו חלקות כמו קודם
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            Debug.Log("now you are jumping");
+            isGrounded = false;
         }
 
         velocity.y += gravity * Time.deltaTime;
@@ -55,9 +57,10 @@ public class playerMovment : MonoBehaviour
     {
 
         if (collision.gameObject.name == "floor")
-        {
+         {
           Debug.Log("collied with floor");
-            isgrounded1 = true;
+        isGrounded = true;
+
         }
 
         if (collision.gameObject.name == "foodToEat")
