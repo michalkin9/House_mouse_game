@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 50313353}
   - component: {fileID: 50313352}
   m_Layer: 0
-  m_Name: foodToEat
+  m_Name: tomatoo
   m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,7 +297,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2.0674067
+  m_Radius: 2.25
   m_Center: {x: 0.030826744, y: -0.020842545, z: -0.1233861}
 --- !u!23 &50313353
 MeshRenderer:
@@ -2269,7 +2269,7 @@ GameObject:
   - component: {fileID: 814432882}
   - component: {fileID: 814432881}
   m_Layer: 0
-  m_Name: foodToEat
+  m_Name: carot
   m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3508,7 +3508,7 @@ GameObject:
   - component: {fileID: 1346261448}
   - component: {fileID: 1346261450}
   m_Layer: 0
-  m_Name: foodToEat
+  m_Name: halfTomato
   m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3586,7 +3586,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.39
+  m_Radius: 2.11
   m_Center: {x: 0.0000019073486, y: 0, z: 0}
 --- !u!4 &1353964549 stripped
 Transform:
@@ -3607,7 +3607,7 @@ GameObject:
   - component: {fileID: 1369785839}
   - component: {fileID: 1369785838}
   m_Layer: 0
-  m_Name: foodToEat
+  m_Name: carot2
   m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4226,8 +4226,8 @@ GameObject:
   - component: {fileID: 1691141830}
   - component: {fileID: 1691141829}
   m_Layer: 0
-  m_Name: foodToEat
-  m_TagString: Untagged
+  m_Name: fries
+  m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

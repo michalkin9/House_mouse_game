@@ -27,7 +27,7 @@ public class playerMovment : MonoBehaviour
 
         if(isGrounded && velocity.y < 0)
         {
-            Debug.Log("isGRounded true");
+          //  Debug.Log("isGRounded true");
             velocity.y = -2f;
         }
 
@@ -63,12 +63,13 @@ public class playerMovment : MonoBehaviour
 
         }
 
-        if (collision.gameObject.name == "foodToEat")
+        if (collision.gameObject.CompareTag("food")) //collision.gameObject.name == "foodToEat"
         {
-            Debug.Log(collision.gameObject.name);
+            
             Debug.Log("collied with 2 food");
             Destroy(collision.gameObject);
        }
+
     }
 
 
