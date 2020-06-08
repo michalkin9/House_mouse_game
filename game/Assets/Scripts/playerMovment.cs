@@ -23,7 +23,7 @@ public class playerMovment : MonoBehaviour
     void Update()
     {
 
-        //isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask); - מחזיר false לבדוק מה הלוז
+       //isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if(isGrounded && velocity.y < 0)
         {
