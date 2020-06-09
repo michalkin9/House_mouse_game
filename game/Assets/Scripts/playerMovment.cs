@@ -15,8 +15,9 @@ public class playerMovment : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-    
-    
+    public float Health = 1;
+
+
 
 
     // Update is called once per frame
@@ -68,6 +69,7 @@ public class playerMovment : MonoBehaviour
             
             Debug.Log("collied with 2 food");
             Destroy(collision.gameObject);
+            Health++;
        }
 
     }
