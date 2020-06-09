@@ -19,12 +19,17 @@ In the menu screen you will see three options :
  
  ## How to play?
 
+  ![](images/keys1.jpg) - By pressing the arrow keys, you can move around the room.
+By pressing the space bar the player will jump.
 
-
-• Mouse - Moving the mouse can change the angle of view of the player.
+ ![](images/mouse1.jpg) - Moving the mouse can change the angle of view of the player.
 
 
  # first level:
+ 
+-  Goal : Your goal as a player is to collect foods in the space. Once you eat the food, the score will rise.
+ 
+ 
 ![](images/1.jpg)
 ![](images/2.jpg)
 
