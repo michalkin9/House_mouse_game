@@ -15,11 +15,15 @@ public class TriggerTutorial : Tutorial
 
     public void OnTriggerEnter(Collider other)
     {
+        UnityEngine.Debug.Log("is in trigger");
+
+
         if (!isCurrentTutorial)
             return;
 
         if(other.transform == HitTransform)
         {
+            UnityEngine.Debug.Log("HitTransform");
             TutorialManager.Instace.CompletedTutorial();
             isCurrentTutorial = false;
         }
