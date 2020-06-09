@@ -19,8 +19,7 @@ In the menu screen you will see three options :
  
  ## How to play?
 
-•  ![](images/keys.jpg)- By pressing the arrow keys, you can move around the room.
-By pressing the space bar the player will jump.
+
 
 • Mouse - Moving the mouse can change the angle of view of the player.
 
