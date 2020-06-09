@@ -13,9 +13,9 @@ to experince your house in a new way, through the eyes of of the mouse that you 
 
 In the menu screen you will see three options : 
  ![](images/menu.jpg)
-1. play - 
-2. Options - 
-3. Quit - 
+1. play - by selecting play, you will enter the game .
+2. Options - By entering "options" , you will see an option to change the volume.
+3. Quit - by selecting quit, you will exit the game .
  
  ## How to play?
 
