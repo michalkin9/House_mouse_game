@@ -2793,7 +2793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Order: 2
-  Explanation: go to the tomatoo
+  Explanation: Look for food in the room and eat as much as possible!
   HitTransform: {fileID: 0}
 --- !u!65 &816298358
 BoxCollider:
