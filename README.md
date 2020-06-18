@@ -32,7 +32,7 @@ By pressing the space bar the player will jump.
 -  Goal : Your goal as a player is to collect foods in the space. Once you eat the food, the score will rise.
 
  # level two: 
- ![](images/object.jpg)
+ ![](images/trap.jpg)
 -  Goal : Your goal as a player to eat the food without touching the trap, if you touch the level start again.
 
  # level three: 
