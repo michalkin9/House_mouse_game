@@ -23,11 +23,23 @@ In the menu screen you will see three options :
 By pressing the space bar the player will jump.
 
  ![](images/mouse1.jpg) - Moving the mouse can change the angle of view of the player.
+ 
+ By click ENTER in level tree next to box you can move the box from one place to another.
 
 
- # first level:
+ # level one:
  
 -  Goal : Your goal as a player is to collect foods in the space. Once you eat the food, the score will rise.
+
+ # level two: 
+ ![] (![] (images/object.jpg)
+-  Goal : Your goal as a player to eat the food without touching the trap, if you touch the level start again.
+
+ # level three: 
+![] (images/object.jpg)
+ 
+-  Goal : Your goal as a player is to move boxes so you can get on a chair or table and eat the food that is there, and reach a hole in the wall - and that is how you finish this room.
+
  
  
 ![](images/1.jpg)
