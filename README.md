@@ -32,11 +32,11 @@ By pressing the space bar the player will jump.
 -  Goal : Your goal as a player is to collect foods in the space. Once you eat the food, the score will rise.
 
  # level two: 
- ![] (![] (images/object.jpg)
+ ![](images/object.jpg)
 -  Goal : Your goal as a player to eat the food without touching the trap, if you touch the level start again.
 
  # level three: 
-![] (images/object.jpg)
+![](images/object.jpg)
  
 -  Goal : Your goal as a player is to move boxes so you can get on a chair or table and eat the food that is there, and reach a hole in the wall - and that is how you finish this room.
 
