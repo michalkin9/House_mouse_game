@@ -28,7 +28,6 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return) && isCollied)
         {
             SelectedObject.transform.SetParent(gameObject.transform);
-            SelectedObject.GetComponent<BoxCollider>().enabled = false;
             SelectedObject.GetComponent<MeshRenderer>().material = PickedMaterial;
             isCollied = false;
             isPickedObject = true;
@@ -36,15 +35,9 @@ public class GameController : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Return)  && isPickedObject)
         {
             SelectedObject.transform.SetParent(null);
-            SelectedObject.GetComponent<BoxCollider>().enabled = true;
-           // Invoke("EnableBoxCollider", 1f);
             SelectedObject.GetComponent<MeshRenderer>().material = NormalMaterial;
             isPickedObject = false;
         }
-    }
-    private void EnableBoxCollider()
-    {
-        
     }
     private void FixedUpdate()
     {
@@ -104,11 +97,7 @@ public class GameController : MonoBehaviour
             isCollied = true;
             SelectedObject = collision.gameObject;
         }
-        if (collision.gameObject.CompareTag("FoodOnTable"))
-        {
-            CompletePanel.SetActive(true);
-            Invoke("Home", 2f);
-        }
+
     }
     private void OnCollisionExit(Collision collision)
     {
@@ -116,6 +105,14 @@ public class GameController : MonoBehaviour
         {
             isCollied = false;
             SelectedObject = null;
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("OnTable"))
+        {
+            CompletePanel.SetActive(true);
+            Invoke("Home", 2f);
         }
     }
     public void NextLevel()

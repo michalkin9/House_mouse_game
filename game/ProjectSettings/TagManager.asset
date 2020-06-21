@@ -7,7 +7,7 @@ TagManager:
   - food
   - trap
   - moveable
-  - FoodOnTable
+  - OnTable
   layers:
   - Default
   - TransparentFX
