@@ -21,12 +21,11 @@ In the menu screen you will see three options :
 
   ![](images/keys1.jpg) - By pressing the arrow keys, you can move around the room.
 By pressing the space bar the player will jump.
+By click ENTER in the third level next to box -> you can move the box from one place to another. With another click, you can lay back on the floor.
 
  ![](images/mouse1.jpg) - Moving the mouse can change the angle of view of the player.
  
- By click ENTER in level tree next to box you can move the box from one place to another.
-
-
+ 
  # level one:
  
 -  Goal : Your goal as a player is to collect foods in the space. Once you eat the food, the score will rise.
