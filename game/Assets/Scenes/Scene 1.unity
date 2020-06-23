@@ -2895,10 +2895,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8185343e53d9a8146ab3f9cd08d1f844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Order: 1
-  Explanation: You're alive what a wonderful thing! But to keep alive you have to
-    eat .. otherwise your energy will go down (you can check it out at the bar above).
-    Got it? Let's start by eating 3 foods.
+  Order: 0
+  Explanation: Welcome! You're alive what a wonderful thing! But to keep alive you
+    have to eat .. otherwise your energy will go down (you can check it out at the
+    bar above). Got it? Let's start by eating 3 foods.
   HitTransform: {fileID: 0}
 --- !u!65 &816298358
 BoxCollider:
@@ -3439,7 +3439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &999742506
 Transform:
   m_ObjectHideFlags: 0
@@ -3588,8 +3588,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 248.19, y: -90.53}
-  m_SizeDelta: {x: 386.42157, y: 97.07071}
+  m_AnchoredPosition: {x: 252.49, y: -134.1}
+  m_SizeDelta: {x: 395.0207, y: 184.29935}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050683454
 MonoBehaviour:
