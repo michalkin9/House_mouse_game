@@ -133,20 +133,3 @@ public class playerMovment : MonoBehaviour
 
 }
 
-//     float x = Input.GetAxis("Horizontal");
-//float z = Input.GetAxis("Vertical");
-
-//velocity.x = x* speed;
-//velocity.z = z* speed;
-
-   //     if (!controller.isGrounded)
-   //     {
-   //         velocity.y -= gravity* Time.deltaTime;
-
-   //     }
-
-   //     velocity = transform.TransformDirection(velocity);
-//
-
-   //     Vector3 move = transform.right * x + transform.forward * z;
-//controller.Move(move* speed * Time.deltaTime );
