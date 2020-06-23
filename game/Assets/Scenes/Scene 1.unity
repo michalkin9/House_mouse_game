@@ -224,8 +224,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 131}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -119.34, y: 40.22}
+  m_SizeDelta: {x: 398.6737, y: 207.47543}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &18179864
 MonoBehaviour:
@@ -259,7 +259,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Success
+  m_Text: "Good job! \nRemember to eat in all the next levels!"
 --- !u!222 &18179865
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2896,7 +2896,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Order: 1
-  Explanation: your energy is low eat 3 foods to recover energy.
+  Explanation: You're alive what a wonderful thing! But to keep alive you have to
+    eat .. otherwise your energy will go down (you can check it out at the bar above).
+    Got it? Let's start by eating 3 foods.
   HitTransform: {fileID: 0}
 --- !u!65 &816298358
 BoxCollider:
@@ -3465,12 +3467,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Order: 0
-  Explanation: move with the W,A,S,D keys and mouse.
+  Explanation: Welcome! Are you okay? You had a serious fall. Can you move with the
+    WASD keys so we know you're okay?
   Keys:
   - a
   - w
-  - s
-  - d
 --- !u!4 &1003492210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4584964238233846, guid: 6a7f9fef53fe12d4fb1f9cc72c88b568,
@@ -3587,8 +3588,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 180.6, y: -74.3}
-  m_SizeDelta: {x: 251.24725, y: 64.60347}
+  m_AnchoredPosition: {x: 248.19, y: -90.53}
+  m_SizeDelta: {x: 386.42157, y: 97.07071}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050683454
 MonoBehaviour:
@@ -3626,10 +3627,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 20
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
