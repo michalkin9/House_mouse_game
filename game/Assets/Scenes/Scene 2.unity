@@ -179,10 +179,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -2985,7 +2985,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Order: 0
-  Explanation: Eat 3 foods, don't step on traps they will kill you!
+  Explanation: Oh no! The landlord has discovered you! He puts traps all over the
+    house! Try not to be discovered .. and eat 3 more foods you look weak ..
   HitTransform: {fileID: 0}
 --- !u!65 &816298358
 BoxCollider:
@@ -3725,8 +3726,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Order: 0
-  Explanation: Eat 3 foods, don't step on traps they will kill you!. If you understand
-    please click a.
+  Explanation: Oh no! The landlord has discovered you! He puts traps all over the
+    house! Try not to be discovered .. and eat 3 more foods you look weak .. Got
+    it? If so, press A
   Keys:
   - a
 --- !u!4 &1003492210 stripped
@@ -3938,8 +3940,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 180.6, y: -74.3}
-  m_SizeDelta: {x: 251.24725, y: 64.60347}
+  m_AnchoredPosition: {x: 245.88, y: -119.86}
+  m_SizeDelta: {x: 381.8039, y: 155.72102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050683454
 MonoBehaviour:
@@ -3977,10 +3979,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 20
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -4163,8 +4165,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 131}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -146.2, y: -4.8}
+  m_SizeDelta: {x: 452.3181, y: 181.66304}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091634301
 MonoBehaviour:
@@ -4187,10 +4189,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -4198,7 +4200,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Completed
+  m_Text: "You are already an expert at this! \nReady for a more challenging level?"
 --- !u!222 &1091634302
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6842,8 +6844,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 131}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -238.5, y: 57.6}
+  m_SizeDelta: {x: 289.63348, y: 176.87177}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1906223938
 MonoBehaviour:
@@ -6866,10 +6868,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
