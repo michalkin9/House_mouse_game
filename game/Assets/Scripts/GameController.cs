@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour
             isPickedObject = false;
         }
     }
-    private void FixedUpdate()
+    private void FixedUpdate()  //FixedUpdate is drawn before physics calculations.
     {
         if (Health > 0 && !isFinishedLevel)
         {
@@ -77,18 +77,18 @@ public class GameController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("food")) //collision.gameObject.name == "foodToEat"
         {
-            Health = Health + .35f;
+            Health = Health + .35f; //add the energy
             if (Health >= 1.0f && SceneManager.GetActiveScene().buildIndex != 3)
             {
                 CompletePanel.SetActive(true);
                 Invoke("NextLevel", 2f);
             }
             Debug.Log("collied with 2 food");
-            Destroy(collision.gameObject);
+            Destroy(collision.gameObject); //dextroies the food on collision
         }
         if (collision.gameObject.CompareTag("trap"))
         {
-            Destroy(collision.gameObject);
+            Destroy(collision.gameObject); 
             TrapedPanel.SetActive(true);
             Invoke("Restart", 2f);
         }
